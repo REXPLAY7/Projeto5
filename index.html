@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projeto 5 — Feira de Ciências: projetos estudantis, programação e inscrição.">
+  <title>Projeto 5 — Feira de Ciências</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- ===== CABEÇALHO ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Feira de Ciências — página inicial">
+        <span class="brand-logo" aria-hidden="true">⚛</span>
+        <span class="brand-name">Feira de Ciências</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#inicio">Início</a></li>
+          <li><a class="nav-link" href="#projetos">Projetos</a></li>
+          <li><a class="nav-link" href="#programacao">Programação</a></li>
+          <li><a class="nav-link" href="#inscricao">Inscrição</a></li>
+          <li><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-tag">Edição 2026</p>
+          <h1 class="hero-title" id="hero-title">
+            Projeto 5 <span class="hero-title-sep" aria-hidden="true">—</span>
+            <span class="hero-title-highlight">Feira de Ciências</span>
+          </h1>
+          <p class="hero-subtitle">Conhecimento, criatividade e inovação para um futuro melhor.</p>
+          <a class="btn btn-primary" href="#projetos">Saiba mais</a>
+        </div>
+
+        <!-- Área visual ilustrativa em CSS (substituível por <img src="img/hero.jpg">) -->
+        <figure class="hero-visual" role="img" aria-label="Ilustração com símbolos de ciência: átomo, tubo de ensaio e planeta">
+          <span class="hero-orb hero-orb--1" aria-hidden="true">⚛️</span>
+          <span class="hero-orb hero-orb--2" aria-hidden="true">🧪</span>
+          <span class="hero-orb hero-orb--3" aria-hidden="true">🔭</span>
+          <span class="hero-orb hero-orb--4" aria-hidden="true">🌍</span>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== PROJETOS ===== -->
+    <section class="section" id="projetos" aria-labelledby="projetos-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title" id="projetos-title">Projetos</h2>
+          <p class="section-subtitle">Conheça alguns dos projetos que serão apresentados na feira.</p>
+        </header>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual project-visual--energy" role="img" aria-label="Ilustração de energia solar">☀️</div>
+            <div class="project-body">
+              <h3 class="project-title">Energia Limpa</h3>
+              <p class="project-text">Soluções sustentáveis para um planeta melhor.</p>
+              <a class="project-link" href="#programacao">Ver mais <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual project-visual--robot" role="img" aria-label="Ilustração de robô">🤖</div>
+            <div class="project-body">
+              <h3 class="project-title">Robótica na Educação</h3>
+              <p class="project-text">Tecnologia a serviço do aprendizado.</p>
+              <a class="project-link" href="#programacao">Ver mais <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual project-visual--garden" role="img" aria-label="Ilustração de horta">🌱</div>
+            <div class="project-body">
+              <h3 class="project-title">Horta na Escola</h3>
+              <p class="project-text">Alimentação saudável e consciência ambiental.</p>
+              <a class="project-link" href="#programacao">Ver mais <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual project-visual--materials" role="img" aria-label="Ilustração de estrutura molecular">🧬</div>
+            <div class="project-body">
+              <h3 class="project-title">Ciência dos Materiais</h3>
+              <p class="project-text">Novos materiais para novas possibilidades.</p>
+              <a class="project-link" href="#programacao">Ver mais <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROGRAMAÇÃO ===== -->
+    <section class="section section--alt" id="programacao" aria-labelledby="programacao-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title" id="programacao-title">Programação</h2>
+          <p class="section-subtitle">Confira os horários das apresentações e atividades.</p>
+        </header>
+
+        <div class="table-wrapper" role="region" aria-labelledby="programacao-title" tabindex="0">
+          <table class="schedule-table">
+            <caption class="visually-hidden">Programação da Feira de Ciências: horário, atividade e local</caption>
+            <thead>
+              <tr>
+                <th scope="col">Horário</th>
+                <th scope="col">Atividade</th>
+                <th scope="col">Local</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">09:00–10:00</th>
+                <td>Abertura Oficial</td>
+                <td>Auditório</td>
+              </tr>
+              <tr>
+                <th scope="row">10:00–11:00</th>
+                <td>Apresentação dos Projetos – Parte 1</td>
+                <td>Salas Temáticas</td>
+              </tr>
+              <tr>
+                <th scope="row">11:00–12:00</th>
+                <td>Palestra: Ciência e Sociedade</td>
+                <td>Auditório</td>
+              </tr>
+              <tr>
+                <th scope="row">14:00–15:00</th>
+                <td>Apresentação dos Projetos – Parte 2</td>
+                <td>Salas Temáticas</td>
+              </tr>
+              <tr>
+                <th scope="row">15:00–16:00</th>
+                <td>Premiação e Encerramento</td>
+                <td>Auditório</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== INSCRIÇÃO ===== -->
+    <section class="section" id="inscricao" aria-labelledby="inscricao-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title" id="inscricao-title">Inscrição</h2>
+          <p class="section-subtitle">Preencha o formulário para participar da Feira de Ciências.</p>
+        </header>
+
+        <!--
+          FORMULÁRIO DEMONSTRATIVO: não há backend.
+          Os dados NÃO são enviados nem armazenados.
+          action="#" mantém o usuário na página após a validação HTML.
+        -->
+        <form class="signup-form" action="#" method="post">
+          <div class="form-grid">
+            <div class="form-field">
+              <label class="form-label" for="nome">Nome completo</label>
+              <input class="form-input" type="text" id="nome" name="nome" autocomplete="name" minlength="3" required>
+            </div>
+
+            <div class="form-field">
+              <label class="form-label" for="email">E-mail</label>
+              <input class="form-input" type="email" id="email" name="email" autocomplete="email" placeholder="nome@exemplo.com" required>
+            </div>
+
+            <div class="form-field">
+              <label class="form-label" for="escola">Escola</label>
+              <input class="form-input" type="text" id="escola" name="escola" autocomplete="organization" required>
+            </div>
+
+            <div class="form-field">
+              <label class="form-label" for="categoria">Categoria de participação</label>
+              <select class="form-input form-select" id="categoria" name="categoria" required>
+                <option value="" disabled selected>Selecione...</option>
+                <option value="estudante">Estudante</option>
+                <option value="professor">Professor(a)</option>
+                <option value="visitante">Visitante</option>
+                <option value="organizacao">Equipe organizadora</option>
+              </select>
+            </div>
+          </div>
+
+          <p class="form-note">* Todos os campos são obrigatórios. Formulário demonstrativo: nenhum dado é enviado.</p>
+          <button class="btn btn-primary" type="submit">Enviar inscrição</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== CONTATO ===== -->
+    <section class="section section--alt" id="contato" aria-labelledby="contato-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title" id="contato-title">Contato</h2>
+          <p class="section-subtitle">Ficou com dúvidas? Fale com a organização (dados demonstrativos).</p>
+        </header>
+
+        <ul class="contact-list">
+          <li class="contact-item">
+            <span class="contact-icon" aria-hidden="true">✉️</span>
+            <div>
+              <h3 class="contact-title">E-mail</h3>
+              <a class="contact-link" href="mailto:contato@feiradeciencias.exemplo">contato@feiradeciencias.exemplo</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <span class="contact-icon" aria-hidden="true">📞</span>
+            <div>
+              <h3 class="contact-title">Telefone</h3>
+              <p>(00) 0000-0000</p>
+            </div>
+          </li>
+          <li class="contact-item">
+            <span class="contact-icon" aria-hidden="true">📍</span>
+            <div>
+              <h3 class="contact-title">Local</h3>
+              <p>Escola Exemplo — Rua Fictícia, 123</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand brand--footer" href="#inicio">
+        <span class="brand-logo" aria-hidden="true">⚛</span>
+        <span class="brand-name">Feira de Ciências</span>
+      </a>
+
+      <nav aria-label="Navegação do rodapé">
+        <ul class="nav-list nav-list--footer">
+          <li><a class="nav-link" href="#inicio">Início</a></li>
+          <li><a class="nav-link" href="#projetos">Projetos</a></li>
+          <li><a class="nav-link" href="#programacao">Programação</a></li>
+          <li><a class="nav-link" href="#inscricao">Inscrição</a></li>
+          <li><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <p class="footer-copy">© 2026 Feira de Ciências. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
