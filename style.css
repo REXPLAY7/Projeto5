@@ -227,7 +227,6 @@ select:focus-visible,
 }
 
 .hero-visual {
-  position: relative;
   aspect-ratio: 4 / 3;
   width: 100%;
   border-radius: 20px;
@@ -235,25 +234,7 @@ select:focus-visible,
     radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.35), transparent 50%),
     linear-gradient(135deg, var(--color-primary) 0%, var(--color-green) 100%);
   box-shadow: var(--shadow-hover);
-  overflow: hidden;
 }
-
-.hero-orb {
-  position: absolute;
-  display: grid;
-  place-items: center;
-  width: 28%;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.9);
-  font-size: clamp(1.6rem, 4vw, 3rem);
-  box-shadow: var(--shadow);
-}
-
-.hero-orb--1 { top: 10%; left: 10%; }
-.hero-orb--2 { top: 15%; right: 12%; }
-.hero-orb--3 { bottom: 10%; left: 22%; }
-.hero-orb--4 { bottom: 14%; right: 18%; }
 
 /* ========== SEÇÕES ========== */
 .section { padding: 4rem 0; }
@@ -519,8 +500,6 @@ select:focus-visible,
   }
 
   .hero-visual { aspect-ratio: 16 / 7; }
-
-  .hero-orb { width: 20%; }
 
   .section { padding: 2.75rem 0; }
 
